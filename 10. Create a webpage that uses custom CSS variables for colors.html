@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1{
+       @media (max:600px) {
+
+        font-size: 2rem;
+        
+       }
+
+       @media () {
+        
+       }
+    }
+    </style>
+</head>
+<body>
+   <h1>Create a webpage with a title and a description.</h1>
+   <p>- `2rem` for screens smaller than `600px`.
+    - `3rem` for screens between `600px and 900px`.
+    - `4rem` for screens larger than `900px`.</p>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        
+        @media (max-width: 900px) {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple responsive webpage with a title and a description.</p>
+</body>
+</html>
